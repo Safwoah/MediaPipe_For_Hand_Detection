@@ -9,9 +9,9 @@ hands = mp_hands.Hands(static_image_mode=False, max_num_hands=2, min_detection_c
 mp_draw = mp.solutions.drawing_utils
 
 # Input & Output Paths
-video_path = r"D:\Tremor Videos Subject #1\Day15-After_rotated.mp4" # Change to your video file
-output_video_path = "Day15-After_annotated.mp4"
-csv_output_path = "Day15-After.csv"
+video_path = r"D:\Subject #1\Day 15\After\modified.mp4"  # Change to your video file
+output_video_path = "Day15_after_annotated.mp4"
+csv_output_path = "Day15_after.csv"
 
 # Open video
 cap = cv2.VideoCapture(video_path)
